@@ -1,0 +1,74 @@
+<html>
+<head>
+        <title>Оюутны хоолны санал асуулга</title>
+    </head>  
+<body>
+     <h1>Оюутны хоолны санал асуулга</h1>
+    <form action="/register" method="post">
+        <label for="name"> Нэр</label>
+        <input type="text" id="name" name="name" required>
+   <p>
+        <label for="email">Имэйл</label>
+        <input type="email" id="email" name="email" required placeholder="ner@examle.mn">
+        </p>
+    <p> 
+        <label for="age"> Нас</label>
+        <input type="number" id="age" name="age" min="18" max="22" required>
+    </p>
+    <p>
+<fieldset>
+        <legend>Хэр олон удаа хооллодог вэ?</legend>
+        <input type="radio" id="f-daily" name="frequency" value="daily">
+        <label for="f-daily" >Өдөр бүх</label>
+       
+        <p>
+             <input type="radio" id="f-often" name="frequency" value="often">           
+             <label for="f-often">7 хоногт 3-4 удаа</label> 
+        </p>
+        <p>
+             <input type="radio" id="f-often" name="frequency" value="often">           
+             <label for="f-often">7 хоногт 1-2 удаа</label> 
+        </p>
+         <p>
+             <input type="radio" id="f-often" name="frequency" value="often">           
+             <label for="f-often">бараг хооллодоггүй</label> 
+        </p>
+    </fieldset>
+    </p>
+    <p>
+        <fieldset>
+        <legend> Ямар хоолонд дуртай вэ?</legend>
+        <p>
+             <input type="radio" id="f-often" name="frequency" value="often">           
+             <label for="f-often">Бууз</label> 
+        </p>
+        <p>
+             <input type="radio" id="f-often" name="frequency" value="often">           
+             <label for="f-often">Цуйван</label> 
+        </p>
+        <p>
+             <input type="radio" id="f-often" name="frequency" value="often">           
+             <label for="f-often">Салат</label> 
+        </p>
+<p>
+             <input type="radio" id="f-often" name="frequency" value="often">           
+             <label for="f-often">Шөл</label> 
+        </p>
+        </fieldset>
+    </p>
+    <p>
+      <label for="course">Курс</label>
+      <select id="course" name="course">
+        <option value="1">1-р курс</option>
+        <option value="2">2-р курс</option>
+        <option value="3">3-р курс</option>
+        <option value="4">4-р курс</option>
+      </select>
+    </p>
+    <p>
+      <label for="comment">Сэтгэгдэл</label><br>
+      <textarea id="comment" name="comment" rows="4" cols="40"></textarea>
+    </p>
+    </form>
+  </body>  
+</html>
