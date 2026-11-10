@@ -1,0 +1,75 @@
+body {
+    background-color: #eef3f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+
+/* Профайл зураг */
+.profile-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Цэс */
+ul:first-of-type {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+    font-size: 18px;
+}
+
+/* Үндсэн гарчиг */
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Дэд гарчиг */
+h2 {
+    color: navy;
+}
+
+/* Текст */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* Агуулгын хэсгийг карт хэлбэртэй болгох */
+h2, p {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Хөндлөн зураас */
+hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin: 25px 0;
+}
+
+/* Цэсний холбоосын өнгө */
+a:hover {
+    color: #e67e22;
+}
+/* Агуулгын хэсгийг карт хэлбэртэй болгох */
+h2, p {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+

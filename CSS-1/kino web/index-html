@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kinoo — сургалтын жишээ (нийтэд байршуулахгүй)</title>
+  <!-- Зөвхөн сургалтын жишээ. Зохиомол brand "Kinoo", зураг нь CSS градиент. Нийтэд байршуулахгүй. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="hero">
+    <header class="hero__bar">
+      <a class="logo" href="#">KINOO</a>
+      <a class="btn btn--small" href="#">Нэвтрэх</a>
+    </header>
+    <div class="hero__body">
+      <h1 class="hero__title">Хязгааргүй кино, цуврал, бусад</h1>
+      <p class="hero__sub">Хаанаас ч үз. Хүссэн үедээ цуцал.</p>
+      <p class="hero__lead">Үзэхэд бэлэн үү? Имэйлээ оруулаад эхэл.</p>
+      <form class="signup" action="#">
+        <label class="visually-hidden" for="email">Имэйл хаяг</label>
+        <input class="signup__input" id="email" type="email" placeholder="Имэйл хаяг">
+        <button class="btn btn--big" type="button">Эхлэх</button>
+      </form>
+    </div>
+  </section>
+
+  <main>
+    <section class="section">
+      <h2>Одоо тренд болж буй</h2>
+      <ol class="row">
+        <li class="poster poster--a">
+          <span class="poster__rank">1</span>
+        </li>
+        <li class="poster poster--b"><span class="poster__rank">2</span></li>
+        <li class="poster poster--c"><span class="poster__rank">3</span></li>
+        <li class="poster poster--d"><span class="poster__rank">4</span></li>
+        <li class="poster poster--e"><span class="poster__rank">5</span></li>
+        <li class="poster poster--a"><span class="poster__rank">6</span></li>
+        <li class="poster poster--b"><span class="poster__rank">7</span></li>
+        <li class="poster poster--c"><span class="poster__rank">8</span></li>
+      </ol>
+    </section>
+
+    <section class="section">`
+      <h2>Нэгдэх шалтгаанууд</h2>
+      <ul class="reasons">
+        <li class="reason">
+          <h3>Телевизорт үз</h3>
+          <p>Ухаалаг ТВ, тоглоомын консол, медиа төхөөрөмж дээр.</p>
+        </li>
+        <li class="reason"><h3>Офлайн үз</h3><p>Дуртай цувралаа татаж аваад замдаа үз.</p></li>
+        <li class="reason"><h3>Хаана ч үз</h3><p>Утас, таблет, зөөврийн компьютер дээр хязгааргүй.</p></li>
+        <li class="reason"><h3>Хүүхдэд зориулсан</h3><p>Хүүхдийн профайл хамгаалалттай.</p></li>
+          <li class="reason"><h3>Хүүхдэд зориулсан</h3><p>Хүүхдийн профайл хамгаалалттай.</p></li>
+          <li class="reason"><h3>Хүүхдэд зориулсан</h3><p>Хүүхдийн профайл хамгаалалттай.</p></li>
+          <li class="reason"><h3>Хүүхдэд зориулсан</h3><p>Хүүхдийн профайл хамгаалалттай.</p></li>
+          <li class="reason"><h3>Хүүхдэд зориулсан</h3><p>Хүүхдийн профайл хамгаалалттай.</p></li>
+      </ul>
+    </section>
+
+    <section class="section section--narrow">
+      <h2>Түгээмэл асуулт</h2>
+      <details class="faq">
+        <summary class="faq__q">Kinoo гэж юу вэ?</summary>
+        <p class="faq__a">Олон төрлийн кино, цувралыг интернетээр үзэх сургалтын зохиомол үйлчилгээ.</p>
+      </details>
+      <details class="faq">
+        <summary class="faq__q">Хэдэн төгрөг вэ?</summary>
+        <p class="faq__a">Сургалтын жишээ тул үнэ байхгүй.</p>
+      </details>
+      <details class="faq">
+        <summary class="faq__q">Хаана үзэх вэ?</summary>
+        <p class="faq__a">Интернэттэй аль ч төхөөрөмж дээр.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Асуулт байна уу? 976-0000-0000</p>
+    <ul class="footer__grid">
+      <li><a href="#">Түгээмэл асуулт</a></li>
+      <li><a href="#">Тусламжийн төв</a></li>
+      <li><a href="#">Бүртгэл</a></li>
+      <li><a href="#">Хэвлэлд</a></li>
+      <li><a href="#">Хөрөнгө оруулагч</a></li>
+      <li><a href="#">Ажлын байр</a></li>
+      <li><a href="#">Нууцлал</a></li>
+      <li><a href="#">Холбоо барих</a></li>
+    </ul>
+    <p class="footer__lang">Монгол ▾</p>
+  </footer>
+</body>
+</html>
